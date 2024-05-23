@@ -56,12 +56,12 @@ namespace Lesson_5
             {
                 Result = res;
 
-                Console.Write("Последнее действие отменено. ");
+                Console.Write("Последнее действие возвращено. ");
                 PrintResult();
             }
             else
             {
-                Console.WriteLine("Последнее действие не может быть отменено");
+                Console.WriteLine("Последнее действие не может быть возвращено");
             }
         }
 
